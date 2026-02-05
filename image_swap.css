@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+html,body{
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+}
+
+img{
+    height: 100px;
+    width:100px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+button{
+    padding:10px 20px;
+    border-radius: 50px;
+    border:none;
+    background-color: aqua;
+  
+
+}
+
+button:active{
+    scale:0.95;
+}
